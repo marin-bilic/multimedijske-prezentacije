@@ -1,0 +1,50 @@
+<webalbum version="1.8.2">
+  <title>Razlaganje svjetlosti na boje</title>
+  <settings>
+    <photosize width="640" height="480">medium</photosize>
+    <thumbsize width="100" height="75">medium</thumbsize>
+    <outputdirectory>C:\Users\lenovo\Documents\faks\multimedijske\multimedijske-prezentacije\MMP\Razlaganjesvjetlostinaboje\</outputdirectory>
+    <navigateinloop>False</navigateinloop>
+  </settings>
+  <layout>
+    <colourscheme>Default</colourscheme>
+    <pagecolor>16777215</pagecolor>
+    <textcolor>0</textcolor>
+    <linkcolor>16711680</linkcolor>
+    <hotlinkcolor>255</hotlinkcolor>
+    <thumbnailrows>5</thumbnailrows>
+    <thumbnailcols>4</thumbnailcols>
+    <navigationbelowphoto>False</navigationbelowphoto>
+  </layout>
+  <photographs>
+    <photo>
+      <title>Duga na kišan dan</title>
+      <filename>C:\Users\lenovo\Documents\faks\multimedijske\web album\IMG_20250329_174452~2.jpg</filename>
+    </photo>
+    <photo>
+      <title>Pokus: "mikser boja"</title>
+      <caption>
+        <line>Raznim se pokusima mogu pokazati principi miješanja boja svjetlosti</line>
+      </caption>
+      <filename>C:\Users\lenovo\Documents\faks\multimedijske\web album\IMG-20190412-WA0009.jpg</filename>
+    </photo>
+    <photo>
+      <title>Razlaganje boja na nebu</title>
+      <caption>
+        <line>Prilikom izlaska sunca, boje svjetlosti rasprostiru se jutarnjim nebom</line>
+      </caption>
+      <filename>C:\Users\lenovo\Documents\faks\multimedijske\web album\IMG-20221016-WA0035.jpg</filename>
+    </photo>
+    <photo>
+      <title>Duga</title>
+      <filename>C:\Users\lenovo\Documents\faks\multimedijske\web album\IMG-20251024-WA0013.jpg</filename>
+    </photo>
+    <photo>
+      <title>Sjene u bojama</title>
+      <caption>
+        <line>Kombinacija različitih boja reflektora daje bijelu svjetlost. Predmeti ispred reflektora bacaju sjene u bojama, koje se sve spajaju u crnu sjenu</line>
+      </caption>
+      <filename>C:\Users\lenovo\Documents\faks\multimedijske\web album\IMG-20251219-WA0004.jpg</filename>
+    </photo>
+  </photographs>
+</webalbum>
