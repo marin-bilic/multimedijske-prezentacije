@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav{
+    position: fixed;
+    background: linear-gradient(90deg, darkred 50%, purple 50%);
+    width: calc(100vw);
+    min-height: 4rem;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top:0.5rem;
+    overflow: hidden;
+}
+.nav ul li:not(.logo){
+    float: right;
+    margin-right: 3rem;
+    margin-top: 0.75rem;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.25rem;
+    opacity: 0.6;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.nav ul li:not(.logo):hover{
+    opacity: 0.8;
+    text-decoration: underline;
+    transition: all 0.3s;
+    cursor: pointer;
+    user-select: none;
+}
+.nav ul li:not(.logo).current{
+    opacity: 1;
+    text-decoration: double;
+    cursor:default;
+    pointer-events: none;
+    text-shadow: none;
+    color: black;
+}
+.nav ul li.logo{
+    color: hsl(0, 0%, 100%);
+    float:left;
+    height: 4rem;
+    margin-top: -0.5rem;
+    padding: 0.25rem 0 0.25rem 0;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    cursor: pointer;
+    user-select: none;
+}
+.nav ul li.logo span.boje{
+    position: absolute;
+    margin-top:1rem;
+    margin-left:-9.5rem;
+    font-family:'Comic Sans MS', fantasy;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: oblique;
+    font-size: 2rem;
+    letter-spacing: 0.75rem;
+    text-shadow: -2px -2px 0 #2200ff, 2px -2px 0 #ff00ee, -2px 2px 0 #00ff00, 2px 2px 0 #ff0000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+}
+
+.nav .background{
+    position: absolute;
+    width: 175rem;
+    height: 100%;
+    margin-left: -51rem;
+    z-index:-1;
+    background: linear-gradient(90deg, darkred 25%, red 27%, yellow 30%, yellow 35%, lime 37%, royalblue 40%, purple 42%);
+    transition: all 0.7s;
+}
+.nav .background .indicator{
+    height: 100%;
+    margin-left: calc(40%);
+}
+
+.container{
+    width:calc(100vw - 10rem);
+    min-height:calc(100vh - 9rem);
+    padding:7rem 5rem 2rem 5rem;
+    box-sizing: content-box;
+    background-color: #fff1ee;
+    line-break: strict;
+}
