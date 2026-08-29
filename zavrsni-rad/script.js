@@ -19,11 +19,11 @@ let changePage = (currentPage)=>{
         .then(text => content.innerHTML=text)
 }
 
-if(!nav.querySelector(".current")){
+setTimeout(()=>{if(!nav.querySelector(".current")){
     nav.querySelector(".motivacija").classList.add("current");
     changeNavBg();
     changePage("motivacija");
-}
+}}, 50);
 
 nav.querySelectorAll("li").forEach((item)=>item.addEventListener("click", (e)=>{
     nav.querySelector(".current").classList.remove("current");
