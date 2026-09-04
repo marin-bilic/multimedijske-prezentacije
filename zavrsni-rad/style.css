@@ -80,9 +80,9 @@ body{
 }
 
 .container{
-    width:calc(100vw - 10rem);
+    width:calc(100vw - 10vw);
     min-height:calc(100vh - 6rem);
-    padding:4rem 5rem 2rem 5rem;
+    padding:4rem 5vw 2rem 5vw;
     box-sizing: content-box;
     background-color: #fff1ee;
     line-break: strict;
