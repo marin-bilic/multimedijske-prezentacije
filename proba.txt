@@ -1,38 +1,15 @@
-<h2><span style="color:crimson">Raz</span><span style="color:tomato">lag</span><span style="color:orange">anje</span> <span style="color:forestgreen">svjet</span><span style="color:royalblue">losti</span> <span style="color:purple">na</span> <span style="color:indigo">boje</span></h2>
-<hr>
+Razlaganje svjetlosti na boje
 
-<p>
-Dodatne informacije:
-<a href="https://hr.wikipedia.org/wiki/Disperzija_svjetlosti" target="_blank">
-Disperzija svjetlosti
-</a>
-</p>
-
-
-<p>
 Svjetlost koju svakodnevno vidimo, poput Sunčeve svjetlosti, nazivamo bijelom svjetlošću. Kada pogledamo Sunce ili osvijetljenu prostoriju, čini nam se da je svjetlost jednostavno bijela. Međutim, bijela svjetlost zapravo se sastoji od više različitih boja. To možemo pokazati jednostavnim pokusom pomoću optičke prizme.
-</p><p>
-Optička prizma je prozirno tijelo, najčešće napravljeno od stakla. Kada svjetlost prolazi kroz nju, mijenja smjer, odnosno lomi se. No, zanimljivo je da se sve boje ne lome jednako. Neke se boje skrenu više, a neke manje. Zbog toga se bijela svjetlost pri prolasku kroz prizmu razdvaja na svoje različite boje.
-</p><p>
-Ova pojava naziva se razlaganje svjetlosti ili disperzija svjetlosti. Nakon prolaska kroz prizmu možemo vidjeti spektar boja. Boje se pojavljuju određenim redoslijedom: crvena, narančasta, žuta, zelena, plava i ljubičasta. Kada jednom nastane spektar, boje su uvijek poredane tim redoslijedom.
-</p><p>
-Svaku pojedinu boju možemo nazvati jednobojnom ili monokromatskom svjetlošću. Bijela je svjetlost, s druge strane, višebojna ili polikromatska jer se sastoji od više boja. Ako razdvojene boje ponovno spojimo, možemo ponovno dobiti bijelu svjetlost. To nam pokazuje da se bijela svjetlost može promatrati kao spoj različitih boja.
-</p><p>
-Razlaganje svjetlosti možemo vidjeti i u prirodi. Najpoznatiji primjer je duga. Duga nastaje kada Sunčeva svjetlost prolazi kroz sitne kapljice vode koje se nalaze u zraku, najčešće nakon kiše. Kada svjetlost uđe u kapljicu, ona se lomi i razdvaja na različite boje. Svaka kapljica vode na neki način djeluje poput vrlo male prizme. Kada se svjetlost iz velikog broja kapljica usmjeri prema našim očima, možemo vidjeti prekrasan luk duginih boja.
-</p><p>
-Boje možemo promatrati i pomoću jednostavnog pokusa koji se zove „šareni zvrk“. Na zvrk nacrtamo različite boje, a zatim ga brzo zavrtimo. Dok se zvrk okreće, naše oko ne može dovoljno brzo razlikovati svaku boju zasebno. Boje se zato počinju stapati i zvrk nam može izgledati svjetlije ili gotovo bijelo. To je povezano s načinom na koji naše oko i mozak primaju i obrađuju svjetlost.
-</p><p>
-Razlaganje svjetlosti možemo pronaći u mnogim pojavama oko nas. Pomaže nam razumjeti zašto vidimo dugu, kako pomoću prizme možemo dobiti spektar i zašto se svjetlost različito ponaša kada prolazi kroz različite tvari. Iako nam se bijela svjetlost na prvi pogled čini potpuno jednoličnom, u njoj se zapravo skriva mnogo različitih boja.
-</p>
 
-<hr>
-<h3>Literatura</h3>
-<ul>
-<li>Beštak-Kadić, Z.; Brković, N.; Pećina, P.: Fizika 8, Alfa, Zagreb</li>
-<li>Paar, V.; Ćulibrk, T.; Martinko, S.: Fizika oko nas 8, Školska knjiga, Zagreb</li>
-</ul>
-<h3>Preporučeni linkovi</h3>
-<ul>
-<li><a href="https://hr.wikipedia.org/wiki/Svjetlost" target="_blank">Svjetlost</a></li>
-<li><a href="https://hr.wikipedia.org/wiki/Opti%C4%8Dka_prizma" target="_blank">Optička prizma</a></li>
-</ul>
+Optička prizma je prozirno tijelo, najčešće napravljeno od stakla. Kada svjetlost prolazi kroz nju, mijenja smjer, odnosno lomi se. No, zanimljivo je da se sve boje ne lome jednako. Neke se boje skrenu više, a neke manje. Zbog toga se bijela svjetlost pri prolasku kroz prizmu razdvaja na svoje različite boje.
+
+Ova pojava naziva se razlaganje svjetlosti ili disperzija svjetlosti. Nakon prolaska kroz prizmu možemo vidjeti spektar boja. Boje se pojavljuju određenim redoslijedom: crvena, narančasta, žuta, zelena, plava i ljubičasta. Kada jednom nastane spektar, boje su uvijek poredane tim redoslijedom.
+
+Svaku pojedinu boju možemo nazvati jednobojnom ili monokromatskom svjetlošću. Bijela je svjetlost, s druge strane, višebojna ili polikromatska jer se sastoji od više boja. Ako razdvojene boje ponovno spojimo, možemo ponovno dobiti bijelu svjetlost. To nam pokazuje da se bijela svjetlost može promatrati kao spoj različitih boja.
+
+Razlaganje svjetlosti možemo vidjeti i u prirodi. Najpoznatiji primjer je duga. Duga nastaje kada Sunčeva svjetlost prolazi kroz sitne kapljice vode koje se nalaze u zraku, najčešće nakon kiše. Kada svjetlost uđe u kapljicu, ona se lomi i razdvaja na različite boje. Svaka kapljica vode na neki način djeluje poput vrlo male prizme. Kada se svjetlost iz velikog broja kapljica usmjeri prema našim očima, možemo vidjeti prekrasan luk duginih boja.
+
+Boje možemo promatrati i pomoću jednostavnog pokusa koji se zove „šareni zvrk“. Na zvrk nacrtamo različite boje, a zatim ga brzo zavrtimo. Dok se zvrk okreće, naše oko ne može dovoljno brzo razlikovati svaku boju zasebno. Boje se zato počinju stapati i zvrk nam može izgledati svjetlije ili gotovo bijelo. To je povezano s načinom na koji naše oko i mozak primaju i obrađuju svjetlost.
+
+Razlaganje svjetlosti možemo pronaći u mnogim pojavama oko nas. Pomaže nam razumjeti zašto vidimo dugu, kako pomoću prizme možemo dobiti spektar i zašto se svjetlost različito ponaša kada prolazi kroz različite tvari. Iako nam se bijela svjetlost na prvi pogled čini potpuno jednoličnom, u njoj se zapravo skriva mnogo različitih boja.
