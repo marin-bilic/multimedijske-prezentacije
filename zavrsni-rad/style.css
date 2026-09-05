@@ -110,7 +110,7 @@ img{
     font-size: smaller;
     text-align: center;
 }
-a{
+a, h1, h2, h3{
     color: crimson !important;
 }
 a:hover, a:visited{
