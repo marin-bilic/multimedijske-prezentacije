@@ -9,6 +9,7 @@ body{
     background: linear-gradient(90deg, darkred 50%, purple 50%);
     width: calc(100vw);
     min-height: 4rem;
+    z-index: 100;
 }
 .nav ul {
     list-style-type: none;

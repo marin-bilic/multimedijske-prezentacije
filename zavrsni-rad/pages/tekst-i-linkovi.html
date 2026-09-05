@@ -1,17 +1,134 @@
 <h2><span style="color:crimson">Raz</span><span style="color:tomato">lag</span><span style="color:orange">anje</span> <span style="color:forestgreen">svjet</span><span style="color:royalblue">losti</span> <span style="color:purple">na</span> <span style="color:indigo">boje</span></h2>
 <hr>
 
+
+
+
+<p>
+Svjetlost koju svakodnevno vidimo, poput Sunčeve svjetlosti, nazivamo bijelom svjetlošću. Kada pogledamo Sunce ili osvijetljenu prostoriju, čini nam se da je svjetlost jednostavno bijela. Međutim, bijela svjetlost zapravo se sastoji od više različitih boja. To možemo pokazati jednostavnim pokusom pomoću optičke prizme.
+</p>
 <p>
 Dodatne informacije:
 <a href="https://hr.wikipedia.org/wiki/Disperzija_svjetlosti" target="_blank">
 Disperzija svjetlosti
 </a>
 </p>
-
-
-<p>
-Svjetlost koju svakodnevno vidimo, poput Sunčeve svjetlosti, nazivamo bijelom svjetlošću. Kada pogledamo Sunce ili osvijetljenu prostoriju, čini nam se da je svjetlost jednostavno bijela. Međutim, bijela svjetlost zapravo se sastoji od više različitih boja. To možemo pokazati jednostavnim pokusom pomoću optičke prizme.
-</p><p>
+<style label="ilustracija-prizmaCSS">
+    .ilustracija-prizma{
+        width: 30rem;
+        height: 10.6rem;
+        margin-left: calc(50% - 15rem);
+    }
+    .ilustracija-prizma .dispersion{
+        width:12rem;
+        height:5rem;
+        background: linear-gradient(#0000, red, orange, yellow, lime, royalblue, purple, #0000);
+        transform: translateX(11.7rem) translateY(-8.9rem) rotate(3deg) scale(0.5) skewX(36deg) perspective(4.5rem) rotateY(-35deg) scaleY(0.5);
+        box-shadow: inset -0.1rem 0 0.1rem #fff1ee, inset -0.1rem 0 0.2rem #fff1ee;
+    }
+    .ilustracija-prizma .prism{
+        position: absolute;
+        width:10rem;
+        height:10rem;
+        background-color: powderblue;
+        box-shadow: inset 0 0 0.7rem lightseagreen, inset 0 0 1.5rem white;
+        opacity: 0.3;
+        transform: translateY(-4.9rem) translateX(9rem)scale(0.03) perspective(9rem) rotateX(50deg) scaleY(2) scaleX(0.85)scale(1.15);
+        z-index:10;
+    }
+    .ilustracija-prizma .light-beam{
+        position: absolute;
+        margin-top: 10rem;
+    }
+    .ilustracija-prizma .beam{
+        background: white;
+        box-shadow: 0 0 0.4rem #0003, 0 0 0.2rem yellow;
+        position: absolute;
+        height: 0.125rem;
+        width:6rem;
+        margin-top: -12.43rem;
+        margin-left: 5.5rem;
+        transform: rotate(-10deg);
+    }
+    .ilustracija-prizma .sun{
+        font-size: 4rem;
+        filter: grayscale(1) sepia(0);
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        cursor: pointer;
+        margin-top: 2.2rem;
+        transition: all 0.3s;
+        user-select: none;
+    }
+    .ilustracija-prizma .sun:hover{
+        filter: grayscale(1) sepia(1);
+    }
+    .ilustracija-prizma .sun.active{
+        filter: grayscale(0) sepia(0);
+    }
+    .ilustracija-prizma .inside{
+        width:11.5rem;
+        height:1.65rem;
+        transform: scale(0.5) translateX(12.4rem) translateY(-24.13rem) rotate(-3deg) scale(0.5) skewX(36deg) perspective(4.5rem) rotateY(-35deg) scaleY(0.5);
+        background: linear-gradient(#0000, red, orange, yellow, lime, royalblue, purple, #0000);
+        filter: brightness(2) blur(0.2rem) opacity(0.7);
+        
+    }
+    .ilustracija-prizma .light-beam .fade{
+        background: linear-gradient( 90deg, #fff0, #fff1ee 10%);
+        width: 30rem;
+        height: 7rem;
+        position: absolute;
+        margin-top: -16rem;
+        margin-left: 0;
+    }
+    .ilustracija-prizma:has(.active) .light-beam .fade{
+        margin-left: 30rem;
+        width: 0;
+        transition: all 3s;
+    }
+    .ilustracija-prizma .arrow{
+        position: absolute;
+        transform: rotate(195deg);
+        user-select: none;
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin-left: 4rem;
+        color:crimson;
+    }
+    .ilustracija-prizma .label{
+        position: absolute;
+        user-select: none;
+        font-family: "Comic sans MS";
+        color:crimson;
+        margin-top: 1.5rem;
+        margin-left: 6.25rem;
+    }
+    .step-two{
+        width: 0;
+        opacity: 0;
+    }
+    .ilustracija-prizma:has(.activated) + .step-two{
+        width: auto;
+        opacity: 1;
+        transition: opacity 4s;
+    }
+</style>
+<div class="ilustracija-prizma">
+    <div class="light-beam">
+        <div class="dispersion"></div>
+        <div class="inside"></div>
+        <div class="beam"></div>
+        <div class="fade"></div>
+    </div>
+    <div class="prism"></div>
+    <div class="sun" onclick="this.classList.toggle('active');this.classList.add('activated')">&#127774;</div>
+    <div class="arrow">&#8605;</div>
+    <div class="label">Klikni me!</div>
+</div>
+<div class="step-two">
+    <p>
 Optička prizma je prozirno tijelo, najčešće napravljeno od stakla. Kada svjetlost prolazi kroz nju, mijenja smjer, odnosno lomi se. No, zanimljivo je da se sve boje ne lome jednako. Neke se boje skrenu više, a neke manje. Zbog toga se bijela svjetlost pri prolasku kroz prizmu razdvaja na svoje različite boje.
 </p><p>
 Ova pojava naziva se razlaganje svjetlosti ili disperzija svjetlosti. Nakon prolaska kroz prizmu možemo vidjeti spektar boja. Boje se pojavljuju određenim redoslijedom: crvena, narančasta, žuta, zelena, plava i ljubičasta. Kada jednom nastane spektar, boje su uvijek poredane tim redoslijedom.
@@ -36,3 +153,5 @@ Razlaganje svjetlosti možemo pronaći u mnogim pojavama oko nas. Pomaže nam ra
 <li><a href="https://hr.wikipedia.org/wiki/Svjetlost" target="_blank">Svjetlost</a></li>
 <li><a href="https://hr.wikipedia.org/wiki/Opti%C4%8Dka_prizma" target="_blank">Optička prizma</a></li>
 </ul>
+
+</div>
