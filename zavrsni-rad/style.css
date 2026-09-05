@@ -110,3 +110,12 @@ img{
     font-size: smaller;
     text-align: center;
 }
+a{
+    color: crimson;
+}
+a:hover, a:visited{
+    color: purple;
+}
+a:active{
+    color:red;
+}
