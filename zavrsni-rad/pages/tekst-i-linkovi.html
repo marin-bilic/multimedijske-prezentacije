@@ -106,13 +106,16 @@ Disperzija svjetlosti
         margin-left: 6.25rem;
     }
     .step-two{
-        width: 0;
-        opacity: 0;
+        display: none;
     }
     .ilustracija-prizma:has(.activated) + .step-two{
-        width: auto;
-        opacity: 1;
-        transition: opacity 4s;
+        display: block;
+        animation: Opacity 4s;
+    }
+    @keyframes Opacity{
+        0%{opacity: 0;}
+        75%{opacity: 0;}
+        100%{opacity: 1;}
     }
 </style>
 <div class="ilustracija-prizma">
