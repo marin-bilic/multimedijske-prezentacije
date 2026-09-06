@@ -25,7 +25,7 @@ let changePage = (currentPage)=>{
 if(!nav.querySelector(".current")){
     nav.querySelector(".motivacija").classList.add("current");
     changeNavBg();
-    changePage("kviz-znanja");
+    changePage("motivacija");
 };
 
 nav.querySelectorAll("li").forEach((item)=>item.addEventListener("click", (e)=>{
