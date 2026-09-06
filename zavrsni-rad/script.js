@@ -17,12 +17,15 @@ let changePage = (currentPage)=>{
     fetch(`./pages/${currentPage}.html`)
         .then(response => response.text())
         .then(text => content.innerHTML=text)
+
+
+    
 }
 
 if(!nav.querySelector(".current")){
     nav.querySelector(".motivacija").classList.add("current");
     changeNavBg();
-    changePage("motivacija");
+    changePage("kviz-znanja");
 };
 
 nav.querySelectorAll("li").forEach((item)=>item.addEventListener("click", (e)=>{
@@ -32,8 +35,3 @@ nav.querySelectorAll("li").forEach((item)=>item.addEventListener("click", (e)=>{
     changeNavBg();
 }
 ))
-
-
-
-
-  // Outputs the content of the text file

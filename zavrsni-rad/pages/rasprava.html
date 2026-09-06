@@ -1,1 +1,364 @@
 <h1>Rasprava</h1>
+<style>
+    *{
+        text-align: center;
+    }
+
+    .discussion{
+        height: fit-content;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .discussion .question{
+        border: dashed purple 3px;
+        width: 100%;
+        min-height: 30%;
+        box-sizing: border-box;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    .discussion button{
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: white;
+        border: solid black 1px;
+        border-radius: 5px;
+    }
+
+    .discussion button:hover{
+        background-color: lightgray;
+    }
+
+    .explanation{
+        display: none;
+        margin: 15px auto;
+        padding: 12px;
+        width: 85%;
+        border: solid gray 1px;
+        border-radius: 5px;
+    }
+</style>
+<p>
+    Što misliš, kako se bijela svjetlost ponaša kada prolazi kroz prizmu?
+    Odaberi odgovor za koji misliš da je točan. Nemoj se bojati pogriješiti!
+    Nakon svakog odgovora saznat ćeš nešto novo.
+</p>
+
+<h3>Istražimo zajedno! &#128522;</h3>
+
+<div class="discussion">
+
+    <!-- PITANJE 1 -->
+    <div class="question">
+
+        <h3>
+            1. Što zapravo čini bijelu Sunčevu svjetlost?
+        </h3>
+
+        <button onclick="
+            document.getElementById('e1').style.display='block';
+            document.getElementById('e1').innerHTML=
+            'Bijela svjetlost sastoji se od više različitih boja. Kada ih sve zajedno vidimo, naš ih vid doživljava kao bijelu svjetlost.';
+        ">
+            A) Samo bijela boja
+        </button>
+
+        <button onclick="
+            document.getElementById('e1').style.display='block';
+            document.getElementById('e1').innerHTML=
+            'Bijela svjetlost nije samo jedna boja. Ona je sastavljena od više različitih boja koje se zajedno mogu doživjeti kao bijela svjetlost.';
+        ">
+            B) Više različitih boja
+        </button>
+
+        <button onclick="
+            document.getElementById('e1').style.display='block';
+            document.getElementById('e1').innerHTML=
+            'Crvena je samo jedna od boja koje mogu biti sadržane u bijeloj svjetlosti. Bijela svjetlost sastoji se od više različitih boja.';
+        ">
+            C) Samo crvena i plava boja
+        </button>
+
+        <button onclick="
+            document.getElementById('e1').style.display='block';
+            document.getElementById('e1').innerHTML=
+            'Sunčeva svjetlost nije samo žuta boja. Bijela svjetlost sastoji se od više različitih boja.';
+        ">
+            D) Samo žuta boja
+        </button>
+
+        <div id="e1" class="explanation"></div>
+
+    </div>
+
+
+    <!-- PITANJE 2 -->
+    <div class="question">
+
+        <h3>
+            2. Što se događa kada bijela svjetlost prođe kroz optičku prizmu?
+        </h3>
+
+        <button onclick="
+            document.getElementById('e2').style.display='block';
+            document.getElementById('e2').innerHTML=
+            'Prizma ne stvara nove boje. Ona omogućuje da se različite sastavnice bijele svjetlosti razdvoje.';
+        ">
+            A) Prizma stvara potpuno nove boje
+        </button>
+
+        <button onclick="
+            document.getElementById('e2').style.display='block';
+            document.getElementById('e2').innerHTML=
+            'Svjetlost ne nestaje prolaskom kroz prizmu. Ona se pri prolasku kroz prizmu lomi, a različite boje razdvajaju se.';
+        ">
+            B) Svjetlost potpuno nestane
+        </button>
+
+        <button onclick="
+            document.getElementById('e2').style.display='block';
+            document.getElementById('e2').innerHTML=
+            'Kada bijela svjetlost prolazi kroz prizmu, njezine se različite boje razdvajaju. Ta se pojava naziva disperzija svjetlosti.';
+        ">
+            C) Bijela svjetlost razdvaja se na različite boje
+        </button>
+
+        <button onclick="
+            document.getElementById('e2').style.display='block';
+            document.getElementById('e2').innerHTML=
+            'Prizma ne pretvara bijelu svjetlost samo u jednu boju. Različite boje svjetlosti razdvajaju se pri prolasku kroz prizmu.';
+        ">
+            D) Bijela svjetlost postane samo crvena
+        </button>
+
+        <div id="e2" class="explanation"></div>
+
+    </div>
+
+
+    <!-- PITANJE 3 -->
+    <div class="question">
+
+        <h3>
+            3. Zašto se boje razdvajaju pri prolasku kroz prizmu?
+        </h3>
+
+        <button onclick="
+            document.getElementById('e3').style.display='block';
+            document.getElementById('e3').innerHTML=
+            'Prizma ne bira boje slučajno. Različite boje svjetlosti različito se lome pri prolasku kroz prizmu, pa se zato razdvajaju.';
+        ">
+            A) Zato što se različite boje različito lome
+        </button>
+
+        <button onclick="
+            document.getElementById('e3').style.display='block';
+            document.getElementById('e3').innerHTML=
+            'Boje nisu različite zato što ih prizma proizvodi. One su već sadržane u bijeloj svjetlosti, a prizma ih razdvaja.';
+        ">
+            B) Zato što prizma proizvodi različite boje
+        </button>
+
+        <button onclick="
+            document.getElementById('e3').style.display='block';
+            document.getElementById('e3').innerHTML=
+            'Boje ne nestaju kada prolaze kroz prizmu. Različite se boje različito lome i zbog toga mijenjaju smjer za različite iznose.';
+        ">
+            C) Zato što boje nestaju unutar prizme
+        </button>
+
+        <button onclick="
+            document.getElementById('e3').style.display='block';
+            document.getElementById('e3').innerHTML=
+            'Svjetlost i dalje prolazi kroz prizmu. Razdvajanje boja povezano je s time što se različite boje različito lome.';
+        ">
+            D) Zato što svjetlost prestaje putovati
+        </button>
+
+        <div id="e3" class="explanation"></div>
+
+    </div>
+
+
+    <!-- PITANJE 4 -->
+    <div class="question">
+
+        <h3>
+            4. Kako nazivamo niz boja koji možemo dobiti razlaganjem bijele svjetlosti?
+        </h3>
+
+        <button onclick="
+            document.getElementById('e4').style.display='block';
+            document.getElementById('e4').innerHTML=
+            'Sjena nastaje kada neki predmet spriječi prolazak svjetlosti. Nije naziv za niz boja dobiven razlaganjem svjetlosti.';
+        ">
+            A) Sjena
+        </button>
+
+        <button onclick="
+            document.getElementById('e4').style.display='block';
+            document.getElementById('e4').innerHTML=
+            'Spektar je niz boja koji nastaje kada se različite sastavnice svjetlosti razdvoje. Primjer je spektar dobiven pomoću prizme.';
+        ">
+            B) Spektar
+        </button>
+
+        <button onclick="
+            document.getElementById('e4').style.display='block';
+            document.getElementById('e4').innerHTML=
+            'Apsorpcija opisuje upijanje svjetlosti u nekoj tvari. Niz boja nastao razlaganjem svjetlosti nazivamo spektrom.';
+        ">
+            C) Apsorpcija
+        </button>
+
+        <button onclick="
+            document.getElementById('e4').style.display='block';
+            document.getElementById('e4').innerHTML=
+            'Odbijanje je pojava pri kojoj se svjetlost vraća od površine. Niz boja nastao razlaganjem svjetlosti nazivamo spektrom.';
+        ">
+            D) Odbijanje
+        </button>
+
+        <div id="e4" class="explanation"></div>
+
+    </div>
+
+
+    <!-- PITANJE 5 -->
+    <div class="question">
+
+        <h3>
+            5. Koja je od navedenih svjetlosti monokromatska?
+        </h3>
+
+        <button onclick="
+            document.getElementById('e5').style.display='block';
+            document.getElementById('e5').innerHTML=
+            'Bijela svjetlost nije monokromatska jer se sastoji od više različitih boja.';
+        ">
+            A) Bijela svjetlost
+        </button>
+
+        <button onclick="
+            document.getElementById('e5').style.display='block';
+            document.getElementById('e5').innerHTML=
+            'Svjetlost jedne boje nazivamo monokromatskom. Monokromatska znači da se sastoji od jedne boje.';
+        ">
+            B) Svjetlost jedne boje
+        </button>
+
+        <button onclick="
+            document.getElementById('e5').style.display='block';
+            document.getElementById('e5').innerHTML=
+            'Polikromatska svjetlost sastoji se od više različitih boja, dok se monokromatska svjetlost sastoji od jedne boje.';
+        ">
+            C) Svjetlost svih boja
+        </button>
+
+        <button onclick="
+            document.getElementById('e5').style.display='block';
+            document.getElementById('e5').innerHTML=
+            'Svjetlost koja sadrži više boja nije monokromatska. Monokromatska svjetlost sastoji se od jedne boje.';
+        ">
+            D) Svjetlost sastavljena od više boja
+        </button>
+
+        <div id="e5" class="explanation"></div>
+
+    </div>
+
+
+    <!-- PITANJE 6 -->
+    <div class="question">
+
+        <h3>
+            6. Zašto na nebu nakon kiše ponekad možemo vidjeti dugu?
+        </h3>
+
+        <button onclick="
+            document.getElementById('e6').style.display='block';
+            document.getElementById('e6').innerHTML=
+            'Duga nije nastala zato što kapljice stvaraju nove boje. Sunčeva svjetlost već sadrži različite boje koje se u kapljicama mogu razdvojiti.';
+        ">
+            A) Kapljice vode stvaraju nove boje
+        </button>
+
+        <button onclick="
+            document.getElementById('e6').style.display='block';
+            document.getElementById('e6').innerHTML=
+            'Kapljice vode ne pretvaraju svu Sunčevu svjetlost u bijelu boju. U njima se različite boje Sunčeve svjetlosti mogu razdvojiti i tako nastaje dugini spektar.';
+        ">
+            B) Kapljice vode razdvajaju boje Sunčeve svjetlosti
+        </button>
+
+        <button onclick="
+            document.getElementById('e6').style.display='block';
+            document.getElementById('e6').innerHTML=
+            'Kapljice vode ne upijaju svu Sunčevu svjetlost. One mogu pridonijeti razdvajanju različitih boja Sunčeve svjetlosti.';
+        ">
+            C) Kapljice vode upiju svu Sunčevu svjetlost
+        </button>
+
+        <button onclick="
+            document.getElementById('e6').style.display='block';
+            document.getElementById('e6').innerHTML=
+            'Duga nije posljedica pretvaranja svjetlosti u toplinu. Različite boje Sunčeve svjetlosti u kapljicama vode mogu se razdvojiti.';
+        ">
+            D) Sunčeva svjetlost se pretvara u toplinu
+        </button>
+
+        <div id="e6" class="explanation"></div>
+
+    </div>
+
+
+    <!-- PITANJE 7 -->
+    <div class="question">
+
+        <h3>
+            7. Što se događa kada brzo zavrtimo zvrk na kojem se nalaze različite boje?
+        </h3>
+
+        <button onclick="
+            document.getElementById('e7').style.display='block';
+            document.getElementById('e7').innerHTML=
+            'Pri brzom okretanju oko ne može odvojeno pratiti svaku boju. Zbog toga se boje počinju vizualno stapati.';
+        ">
+            A) Boje se vizualno stapaju
+        </button>
+
+        <button onclick="
+            document.getElementById('e7').style.display='block';
+            document.getElementById('e7').innerHTML=
+            'Brzo okretanje ne čini pojedinačne boje lakšima za razlikovanje. Upravo suprotno – zbog brzog gibanja boje se mogu vizualno stapati.';
+        ">
+            B) Svaka boja postaje još jasnija
+        </button>
+
+        <button onclick="
+            document.getElementById('e7').style.display='block';
+            document.getElementById('e7').innerHTML=
+            'Boje ne nestaju iz zvrka. One su i dalje na njemu, ali ih zbog brzog okretanja oko može doživjeti kao spojenu boju.';
+        ">
+            C) Boje nestanu sa zvrka
+        </button>
+
+        <button onclick="
+            document.getElementById('e7').style.display='block';
+            document.getElementById('e7').innerHTML=
+            'Boje se ne pretvaraju u crnu boju. Pri brzom okretanju različite se boje mogu vizualno stapati.';
+        ">
+            D) Sve boje postanu crne
+        </button>
+
+        <div id="e7" class="explanation"></div>
+
+    </div>
+
+</div>

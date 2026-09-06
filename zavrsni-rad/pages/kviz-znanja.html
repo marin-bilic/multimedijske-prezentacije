@@ -2,14 +2,399 @@
     *{
         text-align: center;
     }
+
     .quiz{
-        min-height: 1rem;
+        height: 45vh;
         width: 80%;
         margin-left:10%;
-        border: solid black 1px;
+        border: double crimson 0.2rem;
+        overflow: hidden auto;
+        padding: 1%;
+    }
+
+    .quiz .question{
+        border: dashed purple 3px;
+        width: 100%;
+        min-height: 30%;
+        box-sizing: border-box;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    .quiz .question label{
+        display: block;
+        margin: 8px;
+        cursor: pointer;
+    }
+
+    .quiz .question input{
+        margin-right: 8px;
+    }
+
+    #submitQuiz{
+        margin: 15px;
+        padding: 10px 25px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #result{
+        margin: 15px;
     }
 </style>
+
 <h1>Kviz znanja</h1>
-<p>Provjeri koliko si naučio o svjetlosti, bojama i pojavi razlaganja svjetlosti. Pažljivo pročitaj svako pitanje i odaberi odgovor za koji misliš da je točan.</p>
+
+<p>
+    Provjeri koliko si naučio o svjetlosti, bojama i pojavi razlaganja svjetlosti.
+    Pažljivo pročitaj svako pitanje i odaberi odgovor za koji misliš da je točan.
+</p>
+
 <h3>Sretno! &#128513;</h3>
-<div class="quiz"></div>
+
+<div class="quiz">
+
+    <!-- 1 -->
+    <div class="question">
+        <h3>1. Kako nazivamo svjetlost koju najčešće vidimo, primjerice Sunčevu svjetlost?</h3>
+
+        <label>
+            <input type="radio" name="q1" value="A">
+            A) Crvena svjetlost
+        </label>
+
+        <label>
+            <input type="radio" name="q1" value="B">
+            B) Bijela svjetlost
+        </label>
+
+        <label>
+            <input type="radio" name="q1" value="C">
+            C) Ljubičasta svjetlost
+        </label>
+
+        <label>
+            <input type="radio" name="q1" value="D">
+            D) Zelena svjetlost
+        </label>
+    </div>
+
+    <!-- 2 -->
+    <div class="question">
+        <h3>2. Čime možemo pokazati da se bijela svjetlost sastoji od više različitih boja?</h3>
+
+        <label>
+            <input type="radio" name="q2" value="A">
+            A) Optičkom prizmom
+        </label>
+
+        <label>
+            <input type="radio" name="q2" value="B">
+            B) Ogledalom
+        </label>
+
+        <label>
+            <input type="radio" name="q2" value="C">
+            C) Povećalom
+        </label>
+
+        <label>
+            <input type="radio" name="q2" value="D">
+            D) Magnetom
+        </label>
+    </div>
+
+    <!-- 3 -->
+    <div class="question">
+        <h3>3. Što se događa s bijelom svjetlošću kada prolazi kroz optičku prizmu?</h3>
+
+        <label>
+            <input type="radio" name="q3" value="A">
+            A) Potpuno nestaje
+        </label>
+
+        <label>
+            <input type="radio" name="q3" value="B">
+            B) Pretvara se samo u toplinu
+        </label>
+
+        <label>
+            <input type="radio" name="q3" value="C">
+            C) Razdvaja se na različite boje
+        </label>
+
+        <label>
+            <input type="radio" name="q3" value="D">
+            D) Postaje samo crvena
+        </label>
+    </div>
+
+    <!-- 4 -->
+    <div class="question">
+        <h3>4. Kako nazivamo pojavu pri kojoj se bijela svjetlost razdvaja na različite boje?</h3>
+
+        <label>
+            <input type="radio" name="q4" value="A">
+            A) Odbijanje
+        </label>
+
+        <label>
+            <input type="radio" name="q4" value="B">
+            B) Apsorpcija
+        </label>
+
+        <label>
+            <input type="radio" name="q4" value="C">
+            C) Disperzija
+        </label>
+
+        <label>
+            <input type="radio" name="q4" value="D">
+            D) Sjena
+        </label>
+    </div>
+
+    <!-- 5 -->
+    <div class="question">
+        <h3>5. Dopuni rečenicu.</h3>
+
+        <p>
+            Niz boja koji nastaje razlaganjem svjetlosti nazivamo:
+        </p>
+
+        <input type="text" id="q5" placeholder="Upiši odgovor">
+    </div>
+
+    <!-- 6 -->
+    <div class="question">
+        <h3>6. Koji je pravilan redoslijed boja u spektru, od crvene prema ljubičastoj?</h3>
+
+        <label>
+            <input type="radio" name="q6" value="A">
+            A) Crvena – žuta – narančasta – zelena – plava – ljubičasta
+        </label>
+
+        <label>
+            <input type="radio" name="q6" value="B">
+            B) Crvena – narančasta – žuta – zelena – plava – ljubičasta
+        </label>
+
+        <label>
+            <input type="radio" name="q6" value="C">
+            C) Ljubičasta – plava – zelena – žuta – narančasta – crvena
+        </label>
+
+        <label>
+            <input type="radio" name="q6" value="D">
+            D) Plava – zelena – crvena – žuta – narančasta – ljubičasta
+        </label>
+    </div>
+
+    <!-- 7 -->
+    <div class="question">
+        <h3>7. Kako nazivamo svjetlost koja se sastoji od jedne boje?</h3>
+
+        <label>
+            <input type="radio" name="q7" value="A">
+            A) Polikromatska
+        </label>
+
+        <label>
+            <input type="radio" name="q7" value="B">
+            B) Višebojna
+        </label>
+
+        <label>
+            <input type="radio" name="q7" value="C">
+            C) Monokromatska
+        </label>
+
+        <label>
+            <input type="radio" name="q7" value="D">
+            D) Bijela
+        </label>
+    </div>
+
+    <!-- 8 -->
+    <div class="question">
+        <h3>8. Dopuni rečenicu.</h3>
+
+        <p>
+            Bijelu svjetlost nazivamo
+            <input type="text" id="q8" placeholder="Upiši odgovor">
+            svjetlošću jer se sastoji od više različitih boja.
+        </p>
+    </div>
+
+    <!-- 9 -->
+    <div class="question">
+        <h3>9. Koja prirodna pojava pokazuje razlaganje Sunčeve svjetlosti na boje?</h3>
+
+        <label>
+            <input type="radio" name="q9" value="A">
+            A) Duga
+        </label>
+
+        <label>
+            <input type="radio" name="q9" value="B">
+            B) Sjena
+        </label>
+
+        <label>
+            <input type="radio" name="q9" value="C">
+            C) Mraz
+        </label>
+
+        <label>
+            <input type="radio" name="q9" value="D">
+            D) Magla
+        </label>
+    </div>
+
+    <!-- 10 -->
+    <div class="question">
+        <h3>10. Što u kapljicama vode omogućuje nastanak duginih boja?</h3>
+
+        <label>
+            <input type="radio" name="q10" value="A">
+            A) Kapljice upijaju svu Sunčevu svjetlost
+        </label>
+
+        <label>
+            <input type="radio" name="q10" value="B">
+            B) Kapljice razdvajaju Sunčevu svjetlost na različite boje
+        </label>
+
+        <label>
+            <input type="radio" name="q10" value="C">
+            C) Kapljice pretvaraju Sunčevu svjetlost u toplinu
+        </label>
+
+        <label>
+            <input type="radio" name="q10" value="D">
+            D) Kapljice stvaraju nove boje
+        </label>
+    </div>
+
+    <!-- 11 -->
+    <div class="question">
+        <h3>11. Zašto se različite boje pri prolasku kroz prizmu razdvajaju?</h3>
+
+        <label>
+            <input type="radio" name="q11" value="A">
+            A) Zato što se različite boje različito lome
+        </label>
+
+        <label>
+            <input type="radio" name="q11" value="B">
+            B) Zato što prizma stvara nove boje
+        </label>
+
+        <label>
+            <input type="radio" name="q11" value="C">
+            C) Zato što sve boje potpuno nestaju
+        </label>
+
+        <label>
+            <input type="radio" name="q11" value="D">
+            D) Zato što svjetlost prestaje putovati kroz prizmu
+        </label>
+    </div>
+
+    <!-- 12 -->
+    <div class="question">
+        <h3>12. Što se događa kada brzo zavrtimo šareni zvrk?</h3>
+
+        <label>
+            <input type="radio" name="q12" value="A">
+            A) Oko lakše razlikuje svaku pojedinu boju
+        </label>
+
+        <label>
+            <input type="radio" name="q12" value="B">
+            B) Boje se počinju vizualno stapati
+        </label>
+
+        <label>
+            <input type="radio" name="q12" value="C">
+            C) Sve boje postaju crne
+        </label>
+
+        <label>
+            <input type="radio" name="q12" value="D">
+            D) Boje nestaju iz zvrka
+        </label>
+    </div>
+
+    <button onclick="
+    let bodovi = 0;
+
+    const odgovori = {
+        q1: 'B',
+        q2: 'A',
+        q3: 'C',
+        q4: 'C',
+        q6: 'B',
+        q7: 'C',
+        q9: 'A',
+        q10: 'B',
+        q11: 'A',
+        q12: 'B'
+    };
+
+    for(let pitanje in odgovori){
+
+        let odgovor = document.querySelector(
+            'input[name=&quot;' + pitanje + '&quot;]:checked'
+        );
+
+        if(odgovor && odgovor.value === odgovori[pitanje]){
+            bodovi++;
+        }
+    }
+
+    let q5 = document.getElementById('q5').value
+        .trim()
+        .toLowerCase();
+
+    if(q5 === 'spektar'){
+        bodovi++;
+    }
+
+    let q8 = document.getElementById('q8').value
+        .trim()
+        .toLowerCase();
+
+    if(q8 === 'polikromatskom'){
+        bodovi++;
+    }
+
+    let poruka = '';
+
+    if(bodovi >= 11){
+        poruka = 'Odlično! Odlično razumiješ kako se bijela svjetlost razdvaja na boje i gdje tu pojavu možemo vidjeti.';
+    }
+    else if(bodovi >= 9){
+        poruka = 'Vrlo dobro! Većinu gradiva razumiješ, a uz malo ponavljanja možeš doći do odličnog rezultata.';
+    }
+    else if(bodovi >= 7){
+        poruka = 'Dobro! Osnovne pojmove poznaješ, ali neke dijelove gradiva još treba ponoviti.';
+    }
+    else if(bodovi >= 5){
+        poruka = 'Može i bolje! Ponovi što su prizma, spektar i disperzija te kako nastaje duga.';
+    }
+    else{
+        poruka = 'Vrijeme za ponavljanje! Vrati se na objašnjenje i pokušaj ponovno. Nakon ponavljanja kviz će ti biti puno lakši.';
+    }
+
+    document.getElementById('result').innerHTML =
+        '<h2>Rezultat: ' + bodovi + '/12 bodova</h2>' +
+        '<p>' + poruka + '</p>';
+">
+    Predaj kviz
+</button>
+</div>
+
+
+
+<div id="result"></div>
